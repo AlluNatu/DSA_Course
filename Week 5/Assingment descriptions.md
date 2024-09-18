@@ -53,7 +53,8 @@ Update your class BST with three new traversal methods:
     breadthfirst(): prints the content of the search tree in breadth-first-order.
 
 Breadth-First enumeration presents the nodes of the search tree level by level (or depth), unlike other impemented methods which traverses the left subtree first before the right subtree.
-![Figure 1: Breadth-First enumeration for a binary tree. Black: explored, grey: queued to be explored later on (source: wikipedia.org).](https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.m.wikipedia.org%2Fwiki%2FFile%3AAnimated_BFS.gif&psig=AOvVaw097PsALcrDnEKpCXo54cdc&ust=1726743664381000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCIi-gsirzIgDFQAAAAAdAAAAABAE)
+
+![Figure 1: Breadth-First enumeration for a binary tree. Black: explored, grey: queued to be explored later on (source: wikipedia.org).](https://upload.wikimedia.org/wikipedia/commons/4/46/Animated_BFS.gif)
 
 An example program:
 
