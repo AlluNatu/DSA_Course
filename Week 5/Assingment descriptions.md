@@ -70,7 +70,7 @@ An example program:
 
 
 
-Assignment 5.3: Mirroring The BST (3 points)
+## Assignment 5.3: Mirroring The BST (3 points)
 
 Implement a new method mirror() to your class BST. The method mirrors the search tree along the root node, i.e. each nodes’ left and right child nodes will swap places.
 While traversal methods can remain as they are, update methods insert, search and remove so that the BST property remains whether the tree is mirrored or not.
