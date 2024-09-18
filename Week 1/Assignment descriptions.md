@@ -1,0 +1,82 @@
+### Assignment 1.1: Insertion Sort (3 points)
+
+Following pseudo code sorts an array of integers. Command swap switches values of two variables.
+
+    function isort(A)
+        for i = 1 to size(A)-1
+            j = i-1
+            while (j >= 0) and (A[j] > A[j+1])
+                swap(A[j], A[j+1])
+                j = j-1
+        return
+
+Create the following function in Python:
+
+    isort(A: list): sorts a given list of integers. Implement the given pseudo code to this function.
+
+Limits:
+
+    the maximum length of the list is 103
+    each integer is between 1...103
+
+A code template with an example program:
+
+    def isort(A):
+        # TODO
+
+    if __name__ == "__main__": 
+        A = [4, 3, 6, 2, 9, 7, 1, 8, 5]
+        isort(A)
+        print(A)  # [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+
+## Assignment 1.2 Prime Numbers (3 points)
+
+For the background read the first paragraph of this article: https://en.wikipedia.org/wiki/Prime_number
+
+Given a number N how many prime numbers are less or equal to N? For example if N=7 there are four prime numbers: 2, 3, 5 and 7 (note that 1 is not a prime number).
+
+Create the following function in Python:
+
+    primes(N: int): returns the numbers of primes that are less or equal to N
+
+Limits:
+
+    1≤N≤105
+
+A code template with an example program:
+
+    def primes(N):
+        # TODO
+        
+    if __name__ == "__main__":
+        print(primes(7))    # 4
+        print(primes(15))   # 6
+        print(primes(50))   # 15
+
+## Assignment 1.3: Is it a Triangle? (3 points)
+
+Three integers a, b and c
+
+presents the side lenghts of a triangle. Can you build any triangle from those three sides?
+
+For example:
+
+    sides 3, 4 and 5 makes a right angle
+    triangle sides 5, 5 and 3 makes an isosceles triangle
+    sides 7, 3 and 3 doesn't make a triangle sides 4, 3 and −1 doesn't make a triangle
+
+Create the following function in Python:
+
+    triangle(a: int, b: int, c: int): returns a boolean True if triangle can be built, False if not
+
+A code template with an example program:
+
+    def triangle(a, b, c):
+        # TODO
+        
+    if __name__ == "__main__":
+        print(triangle(3, 5, 4))    # True
+        print(triangle(-1, 2, 3))   # False
+        print(triangle(5, 9, 14))   # False
+        print(triangle(30, 12, 29)) # True
