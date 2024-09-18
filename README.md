@@ -8,9 +8,9 @@ This contains my BM40A1500 Data Structures and Algorithms course work (LUT Unive
 ## Learning Objectives
 After completing the course, I learned/am able to:
 
-    - The student understands algorithm analysis methods and is able to assess the complexity of an algorithm.
-    - The student can select an appropriate algorithm design principle and data structure for a given problem. 
-    - The student is capable of writing an algorithm that utilizes advanced data structures and programming it in Python.
+    - I understand algorithm analysis methods and I am able to assess the complexity of an algorithm.
+    - I can select an appropriate algorithm design principle and data structure for a given problem. 
+    - I am capable of writing an algorithm that utilizes advanced data structures and programming it in Python.
 
 ## Course Content
 
