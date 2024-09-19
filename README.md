@@ -2,7 +2,7 @@
 
 This is repository for my course I completed in LUT University while doing my Bachelors Degree in Computer Science.
 
-This contains my BM40A1500 Data Structures and Algorithms course work (LUT University).
+This contains my BM40A1500 Data Structures and Algorithms course work (LUT University). Which is worth six (6) ECTS.
 
 
 ## Learning Objectives
